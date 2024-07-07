@@ -71,7 +71,7 @@ h2{
     position: absolute;
     height: 175px;
     width: 175px;
-    margin-top: -225px;
+    margin-top: -165px;
     margin-left: 470px;
     border-radius: 100%;
     border: 3px solid black; 
@@ -234,24 +234,23 @@ h3{
 }
 pre {
     position: relative;
-    margin-left: 80px;
+    margin-left: 80px; /* Оставьте или измените на нужное значение */
     margin-top: -120px;
     padding: 20px;
     font-family: monospace;
     font-size: 0.9rem;
-    background-color:  rgba(193, 161, 191, 0.433);
-    width: 300px;
+    background-color: rgba(193, 161, 191, 0.433);
+    width: auto; /* Или укажите конкретную ширину */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow-x: auto; /* Ensures long code lines don't break the layout */
 }
 
 pre code {
     display: inline-block;
     margin-top: -20px;
-    margin-left: 0px;
+    /* margin-left: 0px; Удалите это свойство */
     position: relative;
 }
 
