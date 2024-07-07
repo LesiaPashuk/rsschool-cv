@@ -1,13 +1,14 @@
 body{
-    background-color: rgb(208, 180, 180);
+    background-color: rgb(105, 87, 104);
 }
 
 #bodyCV{
     background-color: aliceblue;
     margin: 150px auto 150px;
     width: 80%;
-    height: 1298px;
+    height: 1350px;
     overflow: hidden;
+    box-shadow: -10px -6px 46px   rgba(254, 184, 248, 0.151), 7px 11px 50px rgba(254, 184, 248, 0.151);
 }
 
 #headerDecor{
@@ -18,14 +19,14 @@ body{
     margin-left: -150px;
     /*background-color: rgba(205, 251, 255, 0);*/
     border-radius: 100%;
-    border: 5px solid rgb(255, 202, 252)
+    border: 5px solid rgb(193, 161, 191);
 }
 #myImg{
     margin-top: -200px;
     margin-left: 85px;
     width: 250px;
     border-radius: 100%;
-    border: 20px solid rgb(255, 202, 252);
+    border: 20px solid rgb(193, 161, 191);
 }
 #headerBlock{
     display: flex;
@@ -34,7 +35,7 @@ body{
     width: 470px;
     height: 470px;
     
-    background-color: rgb(255, 202, 252);
+    background-color: rgb(193, 161, 191);
     margin-top: -150px;
     
 }
@@ -52,7 +53,6 @@ h2{
 }
 #contacts{
     width: 470px;
-    background-color: rgb(180, 203, 223);
     margin-top: -16px;
     display: flex;
     justify-content: center;
@@ -61,10 +61,11 @@ h2{
 
 }
 #textContact{
+    position: relative;
     font-family: bookman old style;
     font-size: large;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 85px;
 }
 #contactsDecor1{
     position: absolute;
@@ -88,7 +89,6 @@ h2{
 }
 #lang{
     width: 470px;
-    background-color: rgba(0, 255, 255, 0.378);
     height: 200px;
     position: absolute;
 }
@@ -96,7 +96,7 @@ h2{
     
     height: 13.5px;
     width: 100px;
-    background-color: rgb(250, 180, 180);
+    background-color: rgb(193, 161, 191);
     margin-top: 0px;
     margin-left: 180px;
     justify-content: center;
@@ -121,7 +121,7 @@ h3{
     position: relative;
     width: 868px;
     height: 300px;
-    background-color: bisque;
+    background-color:aliceblue;
     margin-top: -70%;
     margin-left: 470px;
 }
@@ -129,7 +129,7 @@ h3{
     
     height: 13.5px;
     width: 100px;
-    background-color: rgb(250, 180, 180);
+    background-color:rgb(193, 161, 191);
     margin-top: 0px;
     margin-left: 0px;
     position: absolute;
@@ -161,14 +161,14 @@ h3{
     position: relative;
     width: 868px;
     height: 150px;
-    background-color: bisque;
+    background-color: aliceblue;
     margin-top: 0%;
     margin-left: 470px;
 }
 #textEducation{
     height: 13.5px;
     width: 120px;
-    background-color: rgb(250, 180, 180);
+    background-color: rgb(193, 161, 191);
     margin-top: 0px;
     margin-left: 0px;
     position: absolute;
@@ -199,13 +199,13 @@ h3{
 #works{position: relative;
     width: 868px;
     height: 390px;
-    background-color: bisque;
+    background-color: aliceblue;
     margin-top: -50px;
     margin-left: 470px;}
 #textWorks{
     height: 13.5px;
     width: 150px;
-    background-color: rgb(250, 180, 180);
+    background-color: rgb(193, 161, 191);
     margin-top: 50px;
     margin-left: 0px;
     position: absolute;
@@ -236,34 +236,37 @@ pre {
     position: relative;
     margin-left: 80px;
     margin-top: -120px;
-    padding-left: 0px;
+    padding: 20px;
     font-family: monospace;
     font-size: 0.9rem;
-    background-color: #f5f5f5;
+    background-color:  rgba(193, 161, 191, 0.433);
     width: 300px;
-    display: flex; /* Use Flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: auto; /* Adjust height based on content */
-    padding: 5px; /* Add some padding for better appearance */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: auto; /* Ensures long code lines don't break the layout */
 }
 
 pre code {
-    display: inline-block; /* Ensure inline-block for flex properties to apply */
-    margin-left: -150px;
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: 0px;
+    position: relative;
 }
+
 #skils{
     position: relative;
     width: 868px;
     height: 230px;
-    background-color: bisque;
-    margin-top: 0%;
+    background-color: aliceblue;
+    margin-top: 10%;
     margin-left: 470px;
 }
 #textSkils{
     height: 13.5px;
     width: 50px;
-    background-color: rgb(250, 180, 180);
+    background-color: rgb(193, 161, 191);
     margin-top: 0px;
     margin-left: 0px;
     position: absolute;
@@ -292,7 +295,7 @@ pre code {
     flex-direction: column;
 }
 footer{
-    background-color: blueviolet;
+    background-color: rgb(193, 161, 191);
     height: 80px;
     position: relative;
 }
@@ -316,3 +319,22 @@ footer{
     margin-top: 18px;
     margin-left:15px ;
 }
+#h3cont{font-family: bookman old style;
+    font-size: 120%;
+    display: flex;
+    margin-top: 0px;
+    z-index: 1;}
+    #h3contDecor{
+        height: 13.5px;
+    width: 100px;
+    background-color: rgb(193, 161, 191);
+   
+    margin-left: 280px;
+    position: absolute;
+    
+    top: 110%;
+    left: 80px;
+    /*transform: translateX(-50%);*/
+    text-align: center;
+    z-index: 1;/**/
+    }
