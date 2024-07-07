@@ -3,7 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Alesia Pashuk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+<body>
+    <div id="bodyCV">
+        <header>
+            <div id="headerDecor"></div>
+            <img src="IMG_1806.JPG" alt="myImg" id="myImg">
+            <div id="headerBlock">
+                <h1>Pashuk<br>Alesia</h1>
+                <h2>frontend developer</h2>
+            </div>
+        </header>
+    
+        <main>
+            <section id="contacts">
+                <div id="h3contDecor">
+                <h3 id ="h3cont">Contacts</h3></div>
+                <ul id="textContact">
+                    <li>✉ alesya5704747@icloud.com</li>
+                    <li>☏ +375-29-570-47-47</li>
+                    <li>➣ @alesiapashuk</li>
+                    <li>⟟ Minsk, Belarus</li>
+                </ul>
+                <div id="contactsDecor1">
+                    <div id="contactsDecor2"></div>
+                </div>
+            </section>
+
+            <section id="lang">
+                <div id="langDecor"><h3>Language</h3></div>
+                <ul id="listLang">
+                    <li>Russian - native speaker</li>
+                    <li>English - A2/B2</li>
+                </ul>
+            </section> 
+        </main>
+
+        <aside>
+            <section id="aboutMe">
+                <div id="textAboutMe"><h3 id="h3AboutMe">About me</h3></div>
+                <p id="pAboutMe">Hi!<br>
+                    I have completed my first year at the Faculty of Applied Mathematics and Computer Science at BSU (Minsk, Belarus). I am particularly interested in frontend development, and I am actively developing my skills in this area using various resources. I have excellent communication skills and the ability to find compromises, which helps me in teamwork. I am eager to keep learning and developing new skills to become a professional in IT.
+                </p>
+            </section>
+
+            <section id="education">
+                <div id="textEducation"><h3 id="h3Educatiom">Education</h3></div>
+                <ul id="listEducation">
+                    <li>Belarusian State University, FAMCS, applied computer science</li>
+                    <li>Stepik Certificate: Immersion in JavaScript (for beginners)</li>
+                    <li><a href="https://stepik.org/course/52164/">HTML and CSS Basics</a> (completed)</li>
+                </ul>
+            </section>
+
+            <section id="works">
+                <div id="textWorks"><h3 id="h3Works">Code example</h3></div>
+                <p id="pWorks">Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
+                <pre><code>function moveZeros(arr) { 
+    let arrAnser = [];
+    let count = 0; 
+    for (let i = 0; i &lt; arr.length; i++) { 
+        if (arr[i] !== 0) { 
+            arrAnser.push(arr[i]);
+        } else {
+            count++;
+        }
+    }
+    while (count > 0) {
+        arrAnser.push(0);
+        count--;
+    }
+    return arrAnser;
+}
+</code></pre>
+            </section>
+
+            <section id="skils">
+                <div id="textSkils"><h3 id="h3Skils">Skills</h3></div>
+                <ul id="listSkils">
+                    <li>HTML, CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                    <li>Object Oriented Programming (basic knowledge)</li>
+                </ul>
+            </section>
+        </aside>
+
+        <footer>
+            <a href="https://github.com/LesiaPashuk"><img src="5fec9210c1841abd3ec6d286_githubLogo.png" alt="github" id="github"></a>
+            <p id="data">© 2024</p>
+            <a href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" alt="rs-school-logo" id="rsImg"></a>
+        </footer>
+    </div>
+</body>
 </html>
